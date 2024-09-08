@@ -1,0 +1,18 @@
+[[themes]]
+  name = "root"
+  chroma = "dracula"
+  chroma_background = "darkcode"
+  app_color = "#403E41"
+  tile_color = "#FCFCFA"
+[[themes]]
+  name = "twotone"
+  chroma = "dracula"
+  chroma_background = "darkcode"
+  app_color = "#403E41"
+  tile_color = "#FCFCFA"
+[[themes]]
+  name = "vintage"
+  chroma = "dracula"
+  chroma_background = "darkcode"
+  app_color = "#403E41"
+  tile_color = "#FCFCFA"

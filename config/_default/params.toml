@@ -1,0 +1,272 @@
+# TODO: remove comments and 'default', only keep in theme's file (in 'exampleSite')
+#logoImage = "" # E.g.: "/logo/logo.png"
+logoText = "SkaEtc"
+logoType = "short" # short (square image), long (rectangular images)
+description = "Ska et cetera"
+custom_css = []
+custom_js = []
+meta_image = ""
+
+#TODO: adapt! ('contact'? 'archive' when handled, etc.)
+notAllowedTypesInHome = ["about", "contact"] # posts types in home page
+notAllowedTypesInHomeSidebar = ["about", "search"] # posts types in lists on home page ('top'+'recent')
+#notAllowedTypesInArchive #TODO: 'archive' currently not handled
+#TODO: If using 'showFeedLinks' - adapt! (look in original Zzo) (+'archive' when handled, etc.)
+#notAllowedTypesInHomeFeed = ["about", "contact", "galleries" ]
+
+viewportSize = "wide" # widest, wider, wide, normal, narrow
+enableSideDataLeft = true # Default: false
+enableSideDataRight = true # Default: false
+
+enableUiAnimation = true #TODO: keep? used?
+hideSingleContentsWhenJSDisabled = false
+
+mainSections = [ "posts", "galleries" ]
+
+# navbar
+enableThemeChange = true
+#enableLangChange = true
+
+# header
+#TODO: use 'single' (keep only 1 variant, and rename to 'single' - from 'single-image' or 'single-ratio')
+homeHeaderType = "single-image" # single, multi, custom
+
+# menu
+showMobileMenuTerms = ["tags", "categories", "series"] #TODO: change "series" to "types"
+
+# body
+# breadcrumb
+enableBreadcrumb = true # Default false
+breadcrumbHome = "both" # Default "icon", values: "text", "icon", "both"
+breadcrumbHomeSiteName = false # Default true
+
+# single
+metaInfoEdit = true
+#metaInfoReadingTime = true
+metaTags = true
+#enableSingleToc = true # TOC in page body (default false)
+#titleClipboard = true # Default false
+codeClipboard = true # Default false
+
+enableGoToTop = true
+
+# TODO: add 'summaryShapeSearch' (+ if tiles make them smaller)
+summaryShape = "tiles" # Default for all pages, values: "card", "classic", "compact", "tiles"
+#summaryShapeHome = "tiles" # Default as "summaryShape"
+#summaryShapeList = "tiles" # Default as "summaryShape"
+#summaryShapeTaxonomy = "classic" # Default as "summaryShape"
+showonlyimage = false
+summaryMeta = true # Default false
+#summaryImagePosition = "left" # Default "left"
+summaryMetaInfoCreate = false # Default true
+#summaryMetaInfoEdit = true # Default false
+#summaryMetaInfoReadingTime = true # Default false
+#TODO: which one(s) to display?
+#summaryMetaTags = true # Default false
+#summaryMetaCategories = true # Default false
+#summaryMetaSeries = true # Default false
+summaryDescription = true # Default false
+
+# TODO: use?
+paginateWindow = 1
+
+# thumbnails zoom
+#sliderInitZoom = false
+sliderZoom = true
+tileInitZoom = true
+tileZoom = true
+summaryInitZoom = true
+summaryZoom = false
+galleryInitZoom = true
+galleryZoom = true
+
+disableSearchSections = true # Default: false
+disableSearchAuthors = true # Default: false
+
+
+# Creator (bio)
+# Not necessary if no "bio" in sidebars
+bioName = "2-REC"
+#bioShowEmail = true # Default: false
+bioDescription = "Skanker"
+#bioImage = ""
+#bioLocation = "Belgium + Vietnam"
+#bioOrganization = "Hugo"
+#bioLink = "..."
+#bioHideSocial = true # Default: false
+
+# Sidebars
+#TODO: depends on page type! (=> specify!)
+# Allowed components: "thumbnail", "bio", "top", "recent", "tags", "categories", "series", "search", custom", "-"
+#sidebarHomeLeft = []
+sidebarHomeRight = [ "-", "tags", "categories", "series", "search" ] #TODO
+sidebarSingleLeft = [ "thumbnail", "-", "toc" ] #TODO
+#sidebarSingleRight = [ "toc", "tags", "categories", "series", "search" ] #TODO
+sidebarSingleRight = [ "-", "tags", "categories", "series", "search" ] #TODO
+#sidebarListLeft = [ ... ] #TODO
+sidebarListRight = [ "-", "tags", "categories", "series", "search" ] #TODO
+#sidebarTaxonomyLeft = [ "-", "bio" ] #TODO
+sidebarTaxonomyRight = [ "-", "tags", "categories", "series", "search" ] #TODO
+#sidebarSearchLeft = [ "-", "bio" ] #TODO
+#sidebarSearchRight = [ "-", "bio" ] #TODO
+sidebarSearchRight = [ "-", "recent" ] #TODO
+
+#disableSidebarLeft = false # Default: false
+#disableSidebarRight = false # Default: false
+
+singleTaxonomies = true # Default: false
+enableSidebarSeparator = true # Default: true
+enableSidebarBio = true # Default: false
+enableBioImage = true # Default: true
+enableSidebarPostsByOrder = false # Default: false
+enableSidebarRecent = true # Default: false
+enableSidebarTags = true # Default: false
+enableSidebarSeries = true # Default: false
+enableSidebarCategories = true # Default: false
+enableSidebarSearch = true # Default: false
+enableSidebarToc = true # Default: false
+
+# Levels visible in TOC are defined in 'config.toml' ('startLevel'/'endLevel' in 'tableOfContents')
+#tocLevels = ["h2", "h3", "h4"] # Highlighted levels in TOC (default: all levels)
+#tocFolding = true # collapse sub titles (default: false)
+
+itemsPerCategory = 5 #TODO: set 1 for each component? (recent, top, etc.)
+
+
+# footer
+#showPoweredBy = true # Default: false
+showFeedLinks = false
+showSocialLinks = true
+
+# service
+googleTagManager = "" # GTM-XXXXXX #TODO: can comment line if not used?
+baiduAnalytics = ""
+enableBusuanzi = false
+#busuanziSiteUV = true #TODO: uncomment if using Busuanzi
+#busuanziSitePV = true #TODO: uncomment if using Busuanzi
+#busuanziPagePV = true #TODO: uncomment if using Busuanzi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[socialOptions]
+  #TODO: clean what don't want/use.
+  email = "your@email.com" #TODO: Add specific email for 'ska-etc' (create new one)
+  facebook = "http://facebook.com/" #TODO: add facebook page for 'ska-etc'
+  #twitter = "" #TODO: want?
+  #instagram = "" #TODO: create ska-etc on instagram?
+  #youtube = "" #TODO: create ska-etc on youtube?
+  #pinterest = "" #TODO: create ska-etc on pinterest?
+  #whatsapp = "" #TODO: want?
+
+# Included: douban, facebook, line, linkedin, reddit, telegram, tumblr, twitter, weibo
+#TODO: want what?
+[[share]]
+  name = "facebook"
+  color = "#1877F2"
+[[share]]
+  name = "linkedin"
+  color = "#0077B5"
+[[share]]
+  name = "reddit"
+  color = "#FF4500"
+#TODO: ?
+#[[share]]
+#  name = "tumblr"
+#  color = "#36465D"
+[[share]]
+  name = "twitter"
+  color = "#1DA1F2"
+  username = "twitter_user" #TODO: ?
+[[share]]
+  name = "whatsapp"
+  color = "#25D366"
+
+# Included: alipay, bitcoin, patreon, paypal, wechat
+#TODO: add when created accounts... (+ buy me a coffee?)
+#[[donation]]
+#  name = "paypal"
+#  url = ""
+#[[donation]]
+#  name = "patreon"
+#  url = ""
+#[[donation]]
+#  name = "wechat"
+#  url = ""
+#  qr = true
+
+# TODO: want? (+should handle icons)
+#[[footerLinks]]
+#  name = ""
+#  link = ""
+#[[footerLinks]]
+#  name = ""
+#  link = ""
+
+# TODO: use other specific Facebook page ('ska-etc'?)
+[copyrightOptions] # Footer
+  copyrightLink = "https://github.com/2-REC"
+  copyrightOwner = "2-REC"
+  copyrightStartYear = "2023"
+
+[slider]
+  enable = true
+  manual = false # Setting manual to true renders the slide selection to only those where the post has a slide=true option enabled
+  num_features = 6 # The slider picks up the banner images from the N most recent posts, where num_features is N.
+  transition_effect = "fade" # Possible values: blindX, blindY, blindZ, cover, curtainX, curtainY, fade, fadeZoom, growX, growY, none, scrollUp, scrollDown, scrollLeft, scrollRight, scrollHorz, scrollVert, shuffle, slideX, slideY, toss, turnUp, turnDown, turnLeft, turnRight, uncover, wipe, zoom
+  transition_delay = 4000 # ms
+  transition_duration = 1000 # ms

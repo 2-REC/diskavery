@@ -1,0 +1,218 @@
+$vintage: (
+    /* global/general */
+    link: #FFD866,
+    link-hover: #FF6188,
+    hr-color: #595B5C,
+
+    selection-color: #FCFCFA,
+    selection-background-color: #FF6188,
+
+    backdrop-background-color: #212121,
+    body-background-color: #2D2A2E,
+    body-color: #FCFCFA,
+
+    /* 'button' shortcode */
+    button-default-color: black,
+    button-default-hover-color: black,
+    button-default-background-color: darken(white, 15%),
+    button-default-background-hover-color: darken(white, 30%),
+    button-default-border-color: black,
+    button-default-border-hover-color: black,
+    button-primary-color: white,
+    button-primary-hover-color: white,
+    button-primary-background-color: lighten(black, 15%),
+    button-primary-background-hover-color: lighten(black, 30%),
+    button-primary-border-color: darken(white, 15%),
+    button-primary-border-hover-color: white,
+
+    custom-scrollbar-foreground-color: #888,
+    custom-scrollbar-background-color: #eee,
+
+    footer-color: #bdbdbd,
+    footer-background-color: #009900,
+    footer-link-color: lighten(#bdbdbd, 15%),
+    footer-link-hover-color: lighten(#bdbdbd, 30%),
+    footer-hr-color: lighten(#bdbdbd, 15%),
+
+    gtt-color: #bdbdbd,
+    gtt-hover-color: #82aaff,
+    gtt-background-color: #009900,
+    gtt-background-hover-color: lighten(#009900, 5%),
+
+    figcaption-color: #bdbdbd,
+    figcaption-background-color: black,
+
+    meta-color: #FCFCFA,
+
+    /* taxonomies */
+    taxo-title-color: #bdbdbd,
+    taxo-active-color: #bdbdbd,
+    taxo-num-color: #FCFCFA,
+    taxo-num-background-color: #212121,
+    taxo-tags-color: #78DCE8,
+    taxo-tags-background-color: lighten(#212121, 13%),
+    taxo-categories-color: #AB9DF2,
+    taxo-categories-background-color: lighten(#212121, 13%),
+    taxo-series-color: #EA9C77,
+    taxo-series-background-color: lighten(#212121, 13%),
+    /* 'sections' & 'authors' */
+    taxo-filter-color: #EA9C77,
+    taxo-filter-background-color: lighten(#212121, 13%),
+
+    social-icon-color: #bdbdbd,
+    social-icon-hover-color: lighten(#bdbdbd, 20%),
+
+    sidebar-title-color: #aed581,
+    sidebar-title-hover-color: lighten(#aed581, 15%),
+    sidebar-li-color: #FCFCFA,
+    sidebar-li-hover-color: lighten(#FCFCFA, 15%),
+
+    /* sidebar toc */
+    toc-title-color: #90a4ae,
+    toc-label-color: #727072,
+    toc-label-active-color: lighten(#727072, 15%),
+
+    /* sidebar bio */
+    bio-color: black,
+    bio-name-color: black,
+    bio-social-icon-color: #bdbdbd,
+    bio-social-icon-hover-color: lighten(#bdbdbd, 20%),
+
+    /* navigation bar (top) */
+    navbar-background-color: #009900,
+    navbar-border-bottom-color: #4e4e4e,
+    navbar-title-color: #FCFCFA,
+    navbar-title-hover-color: #FFD866,
+    navbar-title-active-color: #FF6188,
+    navbar-border-top-color: #424242,
+    navbar-menu-item-hover-background-color: lighten(#009900, 5%),
+    navbar-menu-item-hover-color: #FFD866,
+    navbar-menu-item-active-background-color: #FF6188,
+    burger-menu-color: #FCFCFA,
+
+    /* header slides */
+    header-title-color-default: #FFD866,
+    header-title-shadow-color-default: #212121,
+    header-subtitle-color-default: #FFD866,
+    header-subtitle-shadow-color-default: #212121,
+
+    /* home slide */
+    featured-background-color: #00000077,
+    featured-title-color: darken(white, 15%),
+    featured-title-hover-color: white,
+    featured-content-color: white,
+    featured-button-background-color: #00000077,
+    featured-button-background-hover-color: black,
+    featured-button-color: darken(white, 15%),
+    featured-button-hover-color: white,
+
+    /* breadcrumb (path) */
+    breadcrumb-background-color: #009900,
+    breadcrumb-item-color: #FCFCFA,
+    breadcrumb-item-active-color: #bdbdbd,
+    breadcrumb-item-hover-color: #FFD866,
+
+    /* single post */
+    single-hr-background-color: #595B5C,
+    single-blockquote-border-color: #FCFCFA,
+    single-header-title-color: #FCFCFA,
+    single-contents-title-color: #aed581,
+    single-contents-subtitle-color: #FCFCFA,
+
+    toc-header-background-color: #009900,
+    toc-header-background-hover-color: #424242,
+    toc-body-background-color: #009900,
+
+    content-box-border-color: #616161,
+    content-box-background-color: #009900,
+
+    share-color: #dbdbdb,
+    share-shadow-color: #888,
+    share-background-color: lighten(#009900, 2.5%),
+    action-color: black,
+    action-shadow-color: black,
+    action-background-color: #00FF0077,
+    action-popup-background-color: white,
+    action-popup-color: black,
+    action-popup-border-color: black,
+
+    /* list page */
+    list-title-color: #ddd,
+    list-title-shadow-color: #009900,
+
+    /* taxonomy pages */
+    terms-title-color: #ddd,
+    terms-title-shadow-color: #009900,
+    terms-tags-color: #78DCE8,
+    terms-categories-color: #AB9DF2,
+    terms-series-color: #EA9C77,
+    terms-len-color: #727072,
+
+    /* search page */
+    switch-background-color: #009900,
+    switch-button-color: #FCFCFA,
+    switch-active-color: #FF6188,
+
+    /* pagination */
+    pagination-background-color: #212121,
+    pagination-number-color: #FCFCFA,
+    pagination-number-hover-color: #82aaff,
+    pagination-number-active-color: #82aaff,
+/* TODO: unused...? => check code in 'pagination' */
+/*    pagination-disabled-color: yellow,*/
+
+    tiles-mask-background-color: rgba(0, 0, 0, 0.7),
+    tiles-background-color: rgba(0, 0, 0, 0.7),
+
+    gallery-title-color: #FCFCFA,
+    gallery-title-shadow-color: lighten(#009900, 5%),
+    gallery-mask-background-color: rgba(0, 0, 0, 0.7),
+    gallery-link-color: #FCFCFA,
+
+/* TODO: 'archive' currently not handled */
+/*
+    // TODO: add 'archive-title-color' and 'archive-title-shadow-color'?
+    archive-key-color: #FCFCFA,
+    archive-type-color: #82aaff,
+    archive-meta-color: #aed581,
+    archive-key-background-color: #FF6188,
+    archive-type-background-color: #424242,
+    archive-hover-line-color: #FF6188,
+*/
+
+    about-title-color: #FCFCFA,
+    about-title-shadow-color: lighten(#009900, 5%),
+
+    contact-title-color: #FCFCFA,
+/* TODO: contact stuff... use form? */
+/*
+    contact-title-shadow-color: lighten(#009900, 5%),
+    contact-input-color: #FCFCFA,
+    contact-input-background-color: lighten(#009900, 5%),
+    contact-button-background-color: lighten(#009900, 5%),
+    contact-border-color: #1d1d1d,
+*/
+
+    e404-color: white,
+    e404-title-color: white,
+    e404-title-shadow-color: transparent,
+
+    /* 'alert' shortcode */
+    alert-info-background-color: lighten(blue, 30%),
+    alert-info-text-color: black,
+    alert-info-border-color: blue,
+    alert-success-background-color: lighten(green, 30%),
+    alert-success-text-color: black,
+    alert-success-border-color: green,
+    alert-warning-background-color: lighten(yellow, 30%),
+    alert-warning-text-color: black,
+    alert-warning-border-color: yellow,
+    alert-danger-background-color: lighten(red, 30%),
+    alert-danger-text-color: black,
+    alert-danger-border-color: red,
+
+    /* custom variables (external to theme) */
+    /* hide side image */
+    sidedata-display: none,
+    sidedata-image: none,
+);
