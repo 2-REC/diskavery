@@ -1,5 +1,5 @@
 ---
-draft: true
+#draft: true
 title: "Skatalites"
 date: 2023-02-09T21:59:05+07:00
 banner: "images/skatalites.webp"

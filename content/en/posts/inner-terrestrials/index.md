@@ -1,10 +1,9 @@
 ---
-draft: true
+#draft: true
 title: "Inner Terrestrials"
 banner: "images/it.jpg"
 date: 2022-09-05T09:22:49+07:00
 description: "Stomping and eclectic mix of dub, punk, ska and folk."
-draft: true
 tags:
 - dub
 - punk
